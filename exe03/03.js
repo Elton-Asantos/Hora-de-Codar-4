@@ -19,8 +19,8 @@ alert("Lista de compras inicial:\n" + frutas.join("\n"));
 
 // Loop que continua enquanto houver frutas na lista
 while (frutas.length > 0) {
-  /* Pede ao usuário para digitar o nome da fruta a ser removida.
-     A função prompt() exibe um pop-up pedindo a entrada do usuário. */
+  
+  /* Pede ao usuário para digitar o nome da fruta a ser removida.*/
   var frutaRemovida = prompt("Digite o nome da fruta a ser removida:");
 
   // Verifica se a fruta digitada está na lista
